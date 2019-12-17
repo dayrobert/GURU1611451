@@ -1,0 +1,7 @@
+We would like a function to be written in C# for updating the Tab Visibility setting for a given Object for a given Profile. 
+The function should accept 3 parameter values - Profile Name, Object Name and Tab Visibility Setting (which would be either "Tab Hidden", 
+"Default Off" or "Default On").  As mentioned, using the 3 parameter values, the function should retrieve the tab setting for the given profile
+and object and then use the value in the "Tab Visibility Setting" parameter to perform the update and then exit.  The function should use any 
+of the Salesforce APIs (Tooling, Metadata, etc.).
+
+This should be a standalone function which we can then plug into our own applications.  It does not need to do anything other than as stated above.  

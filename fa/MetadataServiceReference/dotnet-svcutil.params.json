@@ -1,0 +1,16 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.1",
+  "options": {
+    "inputs": [
+      "../metadata.wsdl.xml"
+    ],
+    "namespaceMappings": [
+      "*, MetadataServiceReference"
+    ],
+    "outputFile": "Reference.cs",
+    "sync": true,
+    "targetFramework": "net46",
+    "typeReuseMode": "All"
+  }
+}

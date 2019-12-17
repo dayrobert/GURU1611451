@@ -1,0 +1,16 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.1",
+  "options": {
+    "inputs": [
+      "../partner.wsdl.xml"
+    ],
+    "namespaceMappings": [
+      "*, PartnerServiceReference"
+    ],
+    "outputFile": "Reference.cs",
+    "sync": true,
+    "targetFramework": "net46",
+    "typeReuseMode": "All"
+  }
+}
